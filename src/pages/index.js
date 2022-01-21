@@ -39,7 +39,7 @@ const Home = props => {
 
       {features.length > 0 && (
         <div className="strip strip-grey">
-          <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
+          <div className="container pt-6 pb-6 pt-md-6 pb-md-4">
             <div className="row justify-content-center">
               {features.map(({ node }) => (
                 <div key={node.id} className="col-12 col-md-6 col-lg-4 mb-2">
