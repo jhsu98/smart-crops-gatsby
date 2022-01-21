@@ -1,17 +1,31 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
-    "image": "/images/features/noun_branding_1885335.svg"
+    "title": "Inventory Management and Tracking",
+    "description": "Track inventory levels, chain of custody, and monitor trends throughout the year with up to the minute analytics.",
+    "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1a-225x300.png"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
-    "image": "/images/features/noun_The Process_1885341.svg"
+    "title": "GPS and Location Information",
+    "description": "Connect your forms to stake points, plots, and rows. iFormBuilder will automatically capture your location and update the form to your specific location.",
+    "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1b-225x300.png"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": "/images/features/noun_3d modeling_1885342.svg"
+    "title": "Plot Management",
+    "description": "Integrate your iFormBuilder field notes with your existing databases, hardware, and plot management tools to bring field-level insights to your growing strategy.",
+    "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1c-225x300.png"
+  },{
+    "title": "Photo Capture",
+    "description": "Capture and annotate photos in the field. Photos are stored directly in your forms and made available back in the office in real time.",
+    "image": "/images/features/Icons_LongShadow_Camera.png"
+  },
+  {
+    "title": "Ultra Disconnected",
+    "description": "No connection? No problem. Collect data anywhere, anytime. From remote plots to work in the office, iFormBuilder data is securely collected and stored in an offline environment.",
+    "image": "/images/features/Icons_LongShadow_Plug.png"
+  },
+  {
+    "title": "Sensor Integration",
+    "description": "Remote field sensors measuring temperature and moisture integrate directly into your iFormBuilder forms for accurate field conditions.",
+    "image": "/images/features/Icons_LongShadow_Bolt.png"
   }
 ]

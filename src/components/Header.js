@@ -27,11 +27,13 @@ class Header extends React.Component {
         <div className="container">
           <div className="logo">
             <Link to="/">
+              {/* <img height={config.logo.desktop_height} alt={config.logo.alt} src="/images/logo/SmartCrops_Logo_Color.png" /> */}
               <img height={config.logo.desktop_height} alt={config.logo.alt} src={config.logo.desktop} />
             </Link>
           </div>
           <div className="logo-mobile">
             <Link to="/">
+              {/* <img height={config.logo.desktop_height} alt={config.logo.alt} src="/images/logo/SmartCrops_Logo_Color.png" /> */}
               <img height={config.logo.desktop_height} alt={config.logo.alt} src={config.logo.mobile} />
             </Link>
           </div>

@@ -1,10 +1,10 @@
 ---
 title: 'Home'
-intro_image: "/images/illustrations/pointing.svg"
-intro_image_absolute: true
-intro_image_hide_on_mobile: true
+intro_image: "/images/BlogBannerForWebsiteContent.png"
+intro_image_absolute: false
+intro_image_hide_on_mobile: false
 ---
 
-# Serif - A Gatsby Business Theme.
+# Digital Transformation for Agriculture Professionals
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Achieve digital transformation in the agriculture space with the iFormBuilder mobile platform. Track seed trials, monitor pest inspections, and deliver quality results from the palm of your hand.

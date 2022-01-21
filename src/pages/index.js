@@ -25,18 +25,39 @@ const Home = props => {
       <div className="intro">
         <div className="container">
           <div className="row justify-content-start">
-            <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
-              <Call showButton />
-            </div>
             {intro.frontmatter.intro_image && (
-              <div className="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+              <div className=" w-100 position-relative">
                 <img alt={intro.frontmatter.title} className={introImageClasses} src={intro.frontmatter.intro_image} />
               </div>
             )}
+            {/* <div className="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+              <div dangerouslySetInnerHTML={{ __html: intro.html }} />
+            </div> */}
           </div>
         </div>
       </div>
+
+      {features.length > 0 && (
+        <div className="strip strip-grey">
+          <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
+            <div className="row justify-content-center">
+              {features.map(({ node }) => (
+                <div key={node.id} className="col-12 col-md-6 col-lg-4 mb-2">
+                  <div className="feature">
+                    <h2 className="feature-title">{node.title}</h2>
+                    {node.image && (
+                      <div className="feature-image">
+                        <img src={node.image} />
+                      </div>
+                    )}
+                    <div className="feature-content">{node.description}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       {services.length > 0 && (
         <div className="strip">
@@ -59,28 +80,6 @@ const Home = props => {
               <div className="col-auto">
                 <Link className="button button-primary" to="/services/">View All Services</Link>
               </div>
-            </div>
-          </div>
-        </div>
-      )}
-
-      {features.length > 0 && (
-        <div className="strip strip-grey">
-          <div className="container pt-6 pb-6 pt-md-10 pb-md-10">
-            <div className="row justify-content-center">
-              {features.map(({ node }) => (
-                <div key={node.id} className="col-12 col-md-6 col-lg-4 mb-2">
-                  <div className="feature">
-                    {node.image && (
-                      <div className="feature-image">
-                        <img src={node.image} />
-                      </div>
-                    )}
-                    <h2 className="feature-title">{node.title}</h2>
-                    <div className="feature-content">{node.description}</div>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
