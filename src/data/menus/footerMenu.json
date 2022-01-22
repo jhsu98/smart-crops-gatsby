@@ -1,12 +1,7 @@
 [
     {
-        "name": "Home",
-        "url": "/",
+        "name": "Zerion Software",
+        "url": "https://zerionsoftware.com",
         "weight": 1
-    },
-    {
-        "name": "Contact",
-        "url": "/contact/",
-        "weight": 2
     }
 ]
