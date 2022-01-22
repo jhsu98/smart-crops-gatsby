@@ -18,7 +18,7 @@ const Home = props => {
       <Helmet>
         <meta
           name="description"
-          content="Small Business Theme. Multiple content types using Markdown and JSON sources. Responsive design and SCSS. This is a beautiful and artfully designed starting theme."
+          content="A digital seed trial solution, powered by Zerion Software."
         />
       </Helmet>
 
@@ -59,7 +59,7 @@ const Home = props => {
         </div>
       )}
 
-      {services.length > 0 && (
+      {services.length == 0 && (
         <div className="strip">
           <div className="container pt-6 pb-6 pb-md-10">
             <div className="row justify-content-start">
