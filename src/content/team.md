@@ -7,4 +7,4 @@ intro_image_hide_on_mobile: false
 
 # Meet The Team
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+We are dedicated to building solutions that help field staff collect high quality data, empowering data-driven decision-making on the efficacy of crop varieties. 
