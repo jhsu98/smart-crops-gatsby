@@ -2,7 +2,7 @@
 title: "Laura Pyne"
 date: 2021-10-19T10:47:58+10:00
 draft: false
-image: "/images/team/laura-profile.jpg"
+image: "/images/team/laura-profile-2.png"
 jobtitle: "Director of Marketing"
 linkedinurl: "https://www.linkedin.com/in/laura-pyne-45a78612/"
 promoted: true
