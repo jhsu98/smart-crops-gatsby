@@ -1,7 +1,5 @@
 import React, { useState }  from "react"
 import axios from "axios";
-import { Link } from "gatsby"
-import Layout from "../components/layout"
 const ContactForm = () => {
     
     const [serverState, setServerState] = useState({
@@ -34,8 +32,7 @@ const ContactForm = () => {
         });
     };
     return (
-        <Layout>
-    
+   
     <div>
          <div className="col-md-8 mt-5">
             <h3>Getform.io Gatsby Form Example</h3>
@@ -68,8 +65,6 @@ const ContactForm = () => {
         </div>
       </div>  
     
-  </Layout>
-     
     );
   };
   
