@@ -1,30 +1,30 @@
 [
   {
-    "title": "Inventory Management and Tracking",
-    "description": "Track inventory levels, chain of custody, and monitor trends throughout the year with up to the minute analytics.",
+    "title": "Gold Standard Evaluations",
+    "description": "Comprehensive out-of-the-box evlauation criteria for 35+ different crops. Start collecting data on your first day.",
+    "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1b-225x300.png"
+  },
+  {
+    "title": "Simple Trial Registration",
+    "description": "Manually begin trials in the field on your mobile device or CSV upload large variety sets from your desktop.",
     "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1a-225x300.png"
   },
   {
     "title": "GPS and Location Information",
-    "description": "Connect your forms to stake points, plots, and rows. iFormBuilder will automatically capture your location and update the form to your specific location.",
+    "description": "Automatically capture your location and instantly open maps by scanning QR code hot links.",
     "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1b-225x300.png"
-  },
-  {
-    "title": "Plot Management",
-    "description": "Integrate your iFormBuilder field notes with your existing databases, hardware, and plot management tools to bring field-level insights to your growing strategy.",
-    "image": "/images/features/PO527-01_Zerion_Website_AGPage_Screens_v1c-225x300.png"
   },{
     "title": "Photo Capture",
-    "description": "Capture and annotate photos in the field. Photos are stored directly in your forms and made available back in the office in real time.",
+    "description": "Seamlessly integrate photos and annotations into your evaluations. Multimedia are used to produce beautiful maps and reports.",
     "image": "/images/features/Icons_LongShadow_Camera.png"
   },
   {
     "title": "Ultra Disconnected",
-    "description": "No connection? No problem. Collect data anywhere, anytime. From remote plots to work in the office, iFormBuilder data is securely collected and stored in an offline environment.",
+    "description": "No connection? No problem. Smart Crops data is securely collected and stored in an offline environment. Collect data anywhere, anytime.",
     "image": "/images/features/Icons_LongShadow_Plug.png"
   },
   {
-    "title": "Sensor Integration",
+    "title": "Integrations & Workflow",
     "description": "Remote field sensors measuring temperature and moisture integrate directly into your iFormBuilder forms for accurate field conditions.",
     "image": "/images/features/Icons_LongShadow_Bolt.png"
   }

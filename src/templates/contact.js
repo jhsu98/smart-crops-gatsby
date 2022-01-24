@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import SEO from '../components/SEO';
 import Layout from '../components/Layout';
 import Call from '../components/Call';
+import ContactForm from '../components/ContactForm';
 
 const Contact = ({ data }) => {
   const { title } = data.markdownRemark.frontmatter;
@@ -15,6 +16,7 @@ const Contact = ({ data }) => {
             <h1 className="title">{title}</h1>
             <Call showButton={false} />
             <div className="content mt-4" dangerouslySetInnerHTML={{ __html: html }} />
+            {/* <ContactForm /> */}
           </div>
         </div>
       </div>

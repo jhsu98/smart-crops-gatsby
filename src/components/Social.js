@@ -17,9 +17,9 @@ const Social = props => {
   `);
   return (
     <div className="social">
-      {data.allSocialJson.edges.map(({ node }) => (
+      {/* {data.allSocialJson.edges.map(({ node }) => (
         <a key={node.name} href={node.link} target="blank"><img src={node.image} title={node.name} alt={node.name} /></a>
-      ))}
+      ))} */}
     </div>
   );
 };
