@@ -16,6 +16,7 @@ const Contact = ({ data }) => {
             <Call showButton={false} />
             <div className="content mt-4" dangerouslySetInnerHTML={{ __html: html }} />
             <form name="contact" method="POST" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
               <input type="text" name="name" />
               <button type="submit">Request Trial and Consultation</button>
             </form>
