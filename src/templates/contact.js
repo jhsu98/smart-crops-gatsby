@@ -34,16 +34,17 @@ const Contact = ({ data }) => {
               <br />
               <label>
                 <span style={{width: '100px', display: 'inline-block'}}>Demo Crop: </span>
-                <select>
+                <select required>
                   <option value="">-----</option>
                   <option value="Broccoli">Broccoli</option>
                   <option value="Cauliflower">Cauliflower</option>
                   <option value="Celery">Celery</option>
                   <option value="Onion">Onion</option>
                   <option value="Watermelon">Watermelon</option>
+                  <option value="Other">Other</option>
                 </select>
               </label>
-              <br />
+              <br /><br />
               <button type="submit">Request Trial and Consultation</button>
             </form>
           </div>
